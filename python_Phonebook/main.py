@@ -14,6 +14,32 @@ def show_main_menu():
           "Enter 4 To Exit\n**********************")
 
     '''Operation input'''
+     
+    choice = input("Enter your choice: ")
+    if choice == "1":
+        file1 = open(file_name, "r+")
+        file_contents = file1.read()
+        if len(file_contents) == 0:
+            print("Phone Book is empty")
+        else:
+            print(file_contents)
+        file1.close
+        ent = input("Press Enter to continue ...")
+        show_main_menu()
+    elif choice == "2":
+        enter_contact_record()
+        ent = input("Press Enter to continue ...")
+        show_main_menu()
+    elif choice == "3":
+        search_contact_record()
+        ent = input("Press Enter to continue ...")
+        show_main_menu()
+    elif choice == "4":
+        print("Thanks for using Phone Book Program presented by:")
+    else:
+        print("Wrong choice, Please Enter [1 to 4]\n")
+        ent = input("Press Enter to continue ...")
+        show_main_menu()
 
 
 ''' Search contacts'''
