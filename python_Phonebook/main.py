@@ -68,6 +68,14 @@ print("There's no contact Record in Phone Book with name = " + search_name)
 def input_fname():
     ''' Converts first letter of your name  to Upper case '''
 
+def input_fname():
+''' Converts first letter of your name to Upper case '''
+fname = input("Enter First name ")
+rem_fname = fname[1:]
+first_char = fname[0]
+return first_char.upper() + rem_fname
+
+
 
 '''last name input'''
 def input_lname():
