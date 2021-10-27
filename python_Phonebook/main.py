@@ -10,6 +10,9 @@ def show_main_menu():
           "Enter 1,2,3 or 4:\n" +
           "Enter 1 To Display Your Contacts\n" +
           "Enter 2 To Add a New Contact\n" +
+          "Enter 1,2,3 or 4:\n" +
+          "Enter 1 To Display Your Contacts\n" +
+          "Enter 2 To Add a New Contact\n" +
           "Enter 3 To search contacts\n" +
           "Enter 4 To Exit\n**********************")
 
