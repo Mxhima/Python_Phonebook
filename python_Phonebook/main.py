@@ -12,6 +12,8 @@ def show_main_menu():
           "Enter 2 To Add a New Contact\n" +
           "Enter 3 To search contacts\n" +
           "Enter 4 To Exit\n**********************")
+           "Enter 3 To search contacts\n" +
+          "Enter 4 To Exit\n**********************")
 
     '''Operation input'''
      
